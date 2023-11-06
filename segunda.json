@@ -1,0 +1,42 @@
+{
+  "categories": [
+    {
+      "name": "Category 1",
+      "elements": [
+        {
+          "name": "Place 1",
+          "description": "Description for Place 1"
+        },
+        {
+          "name": "Place 2",
+          "description": "Description for Place 2"
+        },
+        {
+          "name": "Place 3",
+          "description": "Description for Place 3"
+        }
+      ]
+    },
+    {
+      "name": "Category 2",
+      "elements": [
+        {
+          "name": "Place 4",
+          "description": "Description for Place 4"
+        },
+        {
+          "name": "Place 5",
+          "description": "Description for Place 5"
+        },
+        {
+          "name": "Place 6",
+          "description": "Description for Place 6"
+        },
+        {
+          "name": "Place 7",
+          "description": "Description for Place 7"
+        }
+      ]
+    }
+  ]
+}
