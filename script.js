@@ -20,8 +20,33 @@ function loadData(selectedOption) {
           const card = document.createElement("div");
           card.classList.add("card");
           card.innerHTML = `
-            <h2>${element.name}</h2>
-            <p>${element.description}</p>
+            <h2 class="person">${element.name}</h2>
+            
+            <div id="details">
+                    ${
+                      element.torradas !== undefined
+                        ? `<div class="pao">Torradas<h2 class="quantity">${element.torradas}</h2></div>`
+                        : "<p></p>"
+                    }
+                    ${
+                      element.brancas !== undefined
+                        ? `<div class="pao">Brancas<h2 class="quantity" style="background:cadetblue">${element.brancas}</h2></div>`
+                        : "<p></p>"
+                    }
+                    ${
+                      element.broas !== undefined
+                        ? `<div class="pao">Broas<h2 class="quantity" style="background:darkkhaki">${element.broas}</h2></div>`
+                        : "<p></p>"
+                    }
+            </div>
+            <div>
+                    ${
+                      element.subdescription !== undefined
+                        ? `<small class="lugar">${element.subdescription}</small>`
+                        : "<small></small>"
+                    }
+                </div>
+            
           `;
           categoryContainer.appendChild(card);
         });

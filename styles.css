@@ -1,3 +1,6 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
 #app {
   display: flex;
   flex-direction: column;
@@ -24,4 +27,53 @@
 .card p {
   font-size: 1rem;
   color: #555;
+}
+
+#details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: blueviolet;
+  width: 2rem;
+  height: 2rem;
+  color: white;
+  border-radius: 50%;
+}
+
+.person {
+  margin-bottom: 1rem;
+  background: darkseagreen;
+  color: #f7f7f5;
+  padding: 0.25rem 1rem;
+  border-radius: 10px;
+}
+
+.description {
+  font-weight: 600;
+}
+.pao {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.lugar {
+  background: #555555;
+  color: #f7f7f5;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
 }

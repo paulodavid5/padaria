@@ -1,11 +1,16 @@
 {
   "categories": [
     {
-      "name": "Category 1",
+      "name": "Lugar",
       "elements": [
         {
-          "name": "Place 1",
-          "description": "Description for Place 1"
+          "name": "Natalia",
+          "description": "Torradas",
+          "torradas": 1,
+          "brancas": 2,
+          "broas": 0,
+          "subdescription": "Caixa de correio",
+          "qty": 3
         },
         {
           "name": "Place 2",
