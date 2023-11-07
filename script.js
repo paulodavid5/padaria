@@ -10,37 +10,54 @@ function loadData(selectedOption) {
       app.innerHTML = ""; // Clear the existing content
 
       const categories = data.categories;
-      categories.forEach((category) => {
+      categories.forEach((category, index) => {
         const categoryContainer = document.createElement("div");
         categoryContainer.classList.add("category");
-        categoryContainer.innerHTML = `<h2>${category.name}</h2>`;
+        categoryContainer.classList.add(
+          index % 2 === 0 ? "evenCategory" : "oddCategory"
+        );
+        categoryContainer.innerHTML = `<h2 class="freguesia">${category.name}</h2>`;
         app.appendChild(categoryContainer);
 
-        category.elements.forEach((element) => {
+        category.elements.forEach((element, index) => {
           const card = document.createElement("div");
           card.classList.add("card");
+          card.classList.add(index % 2 === 0 ? "even" : "odd");
           card.innerHTML = `
             <h2 class="person">${element.name}</h2>
-            
+            <p class="description">${
+              element.description ? `${element.description}` : ""
+            }</p>
             <div id="details">
                     ${
-                      element.torradas !== undefined
+                      element.torradas !== 0 && element.torradas !== undefined
                         ? `<div class="pao">Torradas<h2 class="quantity">${element.torradas}</h2></div>`
-                        : "<p></p>"
+                        : ""
                     }
                     ${
-                      element.brancas !== undefined
+                      element.brancas !== 0 && element.brancas !== undefined
                         ? `<div class="pao">Brancas<h2 class="quantity" style="background:cadetblue">${element.brancas}</h2></div>`
-                        : "<p></p>"
+                        : ""
                     }
                     ${
-                      element.broas !== undefined
+                      element.broas !== 0 && element.broas !== undefined
                         ? `<div class="pao">Broas<h2 class="quantity" style="background:darkkhaki">${element.broas}</h2></div>`
-                        : "<p></p>"
+                        : ""
                     }
+                    ${
+                      element.integral !== 0 && element.integral !== undefined
+                        ? `<div class="pao">Integral<h2 class="quantity" style="background:dimgrey">${element.integral}</h2></div>`
+                        : ""
+                    }
+                      ${
+                        element.paes !== 0 && element.paes !== undefined
+                          ? `<div class="pao">Pães<h2 class="quantity" style="background:darklateblue">${element.paes}</h2></div>`
+                          : ""
+                      }
             </div>
             <div>
                     ${
+                      element.subdescription !== "" &&
                       element.subdescription !== undefined
                         ? `<small class="lugar">${element.subdescription}</small>`
                         : "<small></small>"

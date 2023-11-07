@@ -1,45 +1,224 @@
 {
   "categories": [
     {
-      "name": "Lugar",
+      "name": "Bluca",
       "elements": [
         {
-          "name": "Natalia",
-          "description": "Torradas",
-          "torradas": 1,
-          "brancas": 2,
+          "name": "Quinhas",
+          "description": "Deixa Saca",
+          "torradas": 0,
+          "brancas": 0,
           "broas": 0,
-          "subdescription": "Caixa de correio",
+          "integral": 0,
+          "paes": 0,
+          "subdescription": "Na Janela",
           "qty": 3
         },
         {
-          "name": "Place 2",
-          "description": "Description for Place 2"
+          "name": "Natália",
+          "description": "Isabel Faz",
+          "torradas": 0,
+          "brancas": 0,
+          "broas": 0,
+          "integral": 0,
+          "paes": 0,
+          "subdescription": "Na Caixa do pão"
         },
         {
-          "name": "Place 3",
-          "description": "Description for Place 3"
+          "name": "Nesto",
+          "description": "Isabel Faz",
+          "torradas": 0,
+          "brancas": 0,
+          "broas": 0,
+          "integral": 0,
+          "paes": 0,
+          "subdescription": "Numa saca na entrada"
+        },
+        {
+          "name": "Filipe",
+          "description": "",
+          "torradas": 0,
+          "brancas": 1,
+          "broas": 0,
+          "integral": 0,
+          "paes": 0,
+          "subdescription": "Na Caixa Branca",
+          "qty": 3
+        },
+        {
+          "name": "Milia",
+          "description": "Isabel Faz",
+          "torradas": 0,
+          "brancas": 0,
+          "broas": 0,
+          "integral": 0,
+          "paes": 0,
+          "subdescription": "Na caixa da Milia"
+        },
+        {
+          "name": "Melia",
+          "description": "Isabel Faz",
+          "torradas": 0,
+          "brancas": 0,
+          "broas": 0,
+          "integral": 0,
+          "paes": 0,
+          "subdescription": "Na caixa da Milia"
         }
       ]
     },
     {
-      "name": "Category 2",
+      "name": "Canles",
       "elements": [
         {
-          "name": "Place 4",
-          "description": "Description for Place 4"
+          "name": "Zira",
+          "description": "",
+          "torradas": 1,
+          "brancas": 1,
+          "broas": 0,
+          "integral": 0,
+          "paes": 0,
+          "subdescription": "Na caixa"
         },
         {
-          "name": "Place 5",
-          "description": "Description for Place 5"
+          "name": "Alexandre",
+          "description": "",
+          "torradas": 0,
+          "brancas": 1,
+          "broas": 0,
+          "integral": 0,
+          "paes": 0,
+          "subdescription": "Na caixa da Milia"
+        }
+      ]
+    },
+    {
+      "name": "Cesto",
+      "elements": [
+        {
+          "name": "Ervilha",
+          "description": "Quando deixa Saca (Broa pequena)",
+          "torradas": 0,
+          "brancas": 0,
+          "broas": 0,
+          "integral": 0,
+          "paes": 0,
+          "subdescription": "No Portal"
         },
         {
-          "name": "Place 6",
-          "description": "Description for Place 6"
+          "name": "Erik",
+          "description": "",
+          "torradas": 0,
+          "brancas": 3,
+          "broas": 0,
+          "integral": 0,
+          "paes": 0,
+          "subdescription": "Na porta de entrada da casa"
         },
         {
-          "name": "Place 7",
-          "description": "Description for Place 7"
+          "name": "Decio",
+          "description": "Quando deixa Saca (Brancas)",
+          "torradas": 0,
+          "brancas": 0,
+          "broas": 0,
+          "integral": 0,
+          "paes": 0,
+          "subdescription": ""
+        },
+        {
+          "name": "Viriato",
+          "description": "Quando deixa Saca (Brancas)",
+          "torradas": 0,
+          "brancas": 0,
+          "broas": 0,
+          "integral": 0,
+          "paes": 0,
+          "subdescription": "No Portão do Viriato"
+        },
+        {
+          "name": "Bira",
+          "description": "",
+          "torradas": 0,
+          "brancas": 2,
+          "broas": 0,
+          "integral": 0,
+          "paes": 0,
+          "subdescription": "No Portão do Viriato"
+        }
+      ]
+    },
+    {
+      "name": "Real",
+      "elements": [
+        {
+          "name": "Paz",
+          "description": "",
+          "torradas": 0,
+          "brancas": 1,
+          "broas": 0,
+          "integral": 0,
+          "paes": 0,
+          "subdescription": "Porta da Casa da Paz"
+        },
+        {
+          "name": "Marcelo",
+          "description": "",
+          "torradas": 0,
+          "brancas": 1,
+          "broas": 0,
+          "integral": 0,
+          "paes": 0,
+          "subdescription": "Porta da Casa da Paz"
+        },
+        {
+          "name": "Filho Teresa",
+          "description": "",
+          "torradas": 0,
+          "brancas": 1,
+          "broas": 0,
+          "integral": 0,
+          "paes": 0,
+          "subdescription": "Porta da Casa"
+        }
+      ]
+    },
+    {
+      "name": "Sé",
+      "elements": [
+        {
+          "name": "Ricardo",
+          "description": "Quando deixa Saca (2 Brancas)",
+          "torradas": 0,
+          "brancas": 0,
+          "broas": 0,
+          "integral": 0,
+          "paes": 0,
+          "subdescription": "Tem chave no cato de entrada"
+        },
+        {
+          "name": "Evangelista",
+          "description": "",
+          "torradas": 0,
+          "brancas": 2,
+          "broas": 0,
+          "integral": 0,
+          "paes": 0,
+          "subdescription": "Na caixa da Milia"
+        }
+      ]
+    },
+    {
+      "name": "Carvalhas",
+      "elements": [
+        {
+          "name": "Agostinho",
+          "description": "Quando deixa Saca (2 Brancas)",
+          "torradas": 0,
+          "brancas": 2,
+          "integral": 1,
+          "paes": 0,
+          "broas": 0,
+          "subdescription": "Tem chave no cato de entrada"
         }
       ]
     }
